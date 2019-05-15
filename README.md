@@ -5,7 +5,6 @@ Implementation of [Variational Auto-Decoder](https://arxiv.org/pdf/1903.00840.pd
 
 ![alt text](https://github.com/A2Zadeh/Variational-Autodecoder/blob/master/VAD.png)
 
-**aplogies for some broken equations - the latex service I used to render equations is acting unstable on their side. I will try an alternate service soon**
 
 # 1. Introduction #
 
