@@ -9,7 +9,7 @@ Variational Auto-Decoder refers to **encoderless** implementation of the Auto-En
 
 By assuming a reparamterization of samples from certain distribution, for the probabilistic decoder, the process of inference can be simplified by gradient approaches: 
 
---> First - An arbitrary distribution (which is easy to sample from) is sampled ![equation](https://latex.codecogs.com/gif.latex?z%20%5Csim%20q%28z%7Cx_i%29). This distribution is assumed to be compatible with reparameterization trick in AEVB. One such distribution is a multivariate normal distribution ![equation](https://latex.codecogs.com/gif.latex?q%28z%7Cx_i%29%3A%3D%5Cmathcal%7BN%7D%28z%3B%5Cmu_i%2C%5CSigma_i%29). Other distributions with one mode exist and can be used as well. 
+--> First - An arbitrary distribution (which is easy to sample from) is sampled ![equation](https://latex.codecogs.com/gif.latex?z%5Csim%20q%28z%7Cx_i%29). This distribution is assumed to be compatible with reparameterization trick in AEVB. One such distribution is a multivariate normal distribution ![equation](https://latex.codecogs.com/gif.latex?q%28z%7Cx_i%29%3A%3D%5Cmathcal%7BN%7D%28z%3B%5Cmu_i%2C%5CSigma_i%29). Other distributions with one mode exist and can be used as well. 
 
 --> Second - After the sample(s, one or more samples) ![equation](https://latex.codecogs.com/gif.latex?z) is drawn, the sample is used as input to the decoder ![equation](https://latex.codecogs.com/gif.latex?%5Cmathcal%7BF%7D%20%28%5Ccdot%3B%5Ctheta%29). 
 
